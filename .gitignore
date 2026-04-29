@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Environments and local machine notes
+.env
+.env.*
+.venv/
+venv/
+env/
+.conda/
+.codex
+.codex/
+CODEX_ENV.md
+
+# Data
+data/
+datasets/
+
+# Model weights and training checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+msi_weights/
+*.pt
+*.pth
+*.ckpt
+
+# Generated training/evaluation outputs
+/samples/
+/results/
+/outputs/
+tmp_eval_*.png
+
+# Local exploratory result assets that are not part of the README.
+assets/results/depth_epoch_*_comparison.png
+assets/results/depth_maps/
+assets/results/depth_maps_epoch4/
+assets/results/epoch9_depth_maps/
+assets/results/fixed_epoch4_depth_output*.png
+
+# Exported deployment artifacts
+exports/
+*.onnx
+*.engine
+*.plan
+*.trt
+*.cache
+
+# Logs and profiler traces
+*.log
+events.out.tfevents*
+wandb/
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

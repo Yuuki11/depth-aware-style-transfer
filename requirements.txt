@@ -1,0 +1,24 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+torchaudio==2.11.0+cu128
+Pillow==12.2.0
+transformers==5.6.2
+numpy==2.4.4
+matplotlib==3.10.9
+lpips==0.1.4
+gradio==6.13.0
+opencv-python==4.13.0.92
+onnx==1.19.1
+onnxscript==0.7.0
+onnxruntime-gpu==1.24.4
+onnx-graphsurgeon==0.6.1
+onnxslim==0.1.91
+nvidia-modelopt[onnx]==0.43.0
+tensorrt-cu12==10.16.1.11
+polygraphy==0.49.26
+kaggle==2.1.0
+gdown==6.0.0
+accelerate==1.13.0
+safetensors==0.7.0

@@ -1,0 +1,17 @@
+{
+  "TRT FP16": {
+    "mae_vs_pytorch_qat_epoch9": 0.07715263217687607,
+    "mse_vs_pytorch_qat_epoch9": 0.009111856110394001,
+    "psnr_vs_pytorch_qat_epoch9_db": 20.403931470232596
+  },
+  "TRT INT8 PTQ": {
+    "mae_vs_pytorch_qat_epoch9": 0.08121659606695175,
+    "mse_vs_pytorch_qat_epoch9": 0.0098842428997159,
+    "psnr_vs_pytorch_qat_epoch9_db": 20.050565905959314
+  },
+  "TRT INT8 direct QAT": {
+    "mae_vs_pytorch_qat_epoch9": 0.016351716592907906,
+    "mse_vs_pytorch_qat_epoch9": 0.0005088323378004134,
+    "psnr_vs_pytorch_qat_epoch9_db": 32.93425295783396
+  }
+}
